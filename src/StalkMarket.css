@@ -1,6 +1,9 @@
+
+
+
 .background1 {
     background-image: url('https://wallpaperaccess.com/full/164553.png');
-    padding-bottom: 13%;
+    padding-bottom: 16.7%;
 }
 
 body {
@@ -59,7 +62,7 @@ body {
     font-family: 'Cute Font', cursive;
     position: absolute;
     left: 85%;
-    bottom: 37.4%;
+    bottom: 37.3%;
     font-size: 3rem; 
     border: 0.1rem solid black;
 }
@@ -71,7 +74,8 @@ body {
     width: 98%;
     height: 27.6%;
     padding-bottom: 2.8%;
-    position: absolute;
+    position: fixed;
+    bottom: 0;
     font-family: 'Cute Font', cursive;
     color: #FFE184;
     border: 1.3rem solid yellow;
@@ -84,16 +88,16 @@ body {
 
 .bellText {
     position: absolute;
-    top: 65%;
-    left: 8.5%;
+    top: 40%;
+    left: 7.5%;
     transform: translate(-50%, -50%);
     font-size: 6rem;
 }
 
 .turnipText {
     position: absolute;
-    top: 65%;
-    left: 26.5%;
+    top: 40%;
+    left: 24%;
     transform: translate(-50%, -50%);
     font-size: 6rem;
 }
@@ -104,10 +108,10 @@ button:focus {
 
 /* Media Query For Laptops */
 
-@media screen and (max-width: 1366px) {
+@media only screen and (max-width: 1518px) {
     .logo-font {
         font-family: 'Cute Font', cursive;
-        font-size: 5rem;
+        font-size: 5.1rem;
         text-align: center;
     }
     
@@ -150,14 +154,14 @@ button:focus {
         font-family: 'Cute Font', cursive;
         position: absolute;
         left: 85%;
-        bottom: 35.5%;
+        bottom: 35%;
         font-size: 2rem; 
         border: 0.1rem solid black;
     }
     .container {
         background-image: url('https://cdna.artstation.com/p/assets/images/images/001/146/574/large/ulrick-wery-tileableset2-wood.jpg?1441028620');
         display: inline-block;
-        width: 97%;
+        width: 97.5%;
         height: 19%;
         padding-bottom: 5%;
         position: absolute;
@@ -176,16 +180,16 @@ button:focus {
     }
     .bellText {
         position: absolute;
-        top: 65%;
-        left: 6.5%;
+        top: 40%;
+        left: 5.5%;
         transform: translate(-50%, -50%);
         font-size: 5rem;
     }
     
     .turnipText {
         position: absolute;
-        top: 65%;
-        left: 23%;
+        top: 40%;
+        left: 20.5%;
         transform: translate(-50%, -50%);
         font-size: 5rem;
     }
@@ -195,8 +199,5 @@ button:focus {
   @media screen and (max-width: 1366px) {
 
   }
-
-
-
 
 
