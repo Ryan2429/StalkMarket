@@ -1,0 +1,202 @@
+.background1 {
+    background-image: url('https://wallpaperaccess.com/full/164553.png');
+    padding-bottom: 13%;
+}
+
+body {
+    margin-top: -4.5%;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: -4.5%;
+    overflow: hidden; 
+}
+
+.logo-font {
+    font-family: 'Cute Font', cursive;
+    font-size: 8rem;
+    text-align: center;
+}
+
+.logo-font-smaller {
+    font-family: 'Cute Font', cursive;
+    font-size: 4rem;
+    text-align: center;
+    margin-top: -7%;
+}
+
+.today {
+    font-family: 'Cute Font', cursive;
+    font-size: 4rem;
+    text-align: center;
+    margin-top: -5.5%;
+}
+
+.buyTurnips {
+    font-family: 'Cute Font', cursive;
+    position: absolute;
+    top: 15%;
+    left: 2%;
+    font-size: 2.8rem;
+    height: 30%;
+    width: 30%;
+    padding: 2% 2% 2% 2%;
+    border: 0.1rem solid black;
+}
+
+.sellTurnips {
+    font-family: 'Cute Font', cursive;
+    position: absolute;
+    top: 15%;
+    left: 2%;
+    font-size: 2.8rem;
+    height: 30%;
+    width: 30%;
+    padding: 2% 2% 2% 2%;
+    border: 0.1rem solid black;
+}
+
+.nextDay {
+    font-family: 'Cute Font', cursive;
+    position: absolute;
+    left: 85%;
+    bottom: 37.4%;
+    font-size: 3rem; 
+    border: 0.1rem solid black;
+}
+
+
+.container {
+    background-image: url('https://cdna.artstation.com/p/assets/images/images/001/146/574/large/ulrick-wery-tileableset2-wood.jpg?1441028620');
+    display: inline-block;
+    width: 98%;
+    height: 27.6%;
+    padding-bottom: 2.8%;
+    position: absolute;
+    font-family: 'Cute Font', cursive;
+    color: #FFE184;
+    border: 1.3rem solid yellow;
+    text-shadow:-0.1rem -0.1rem 0 black,
+                 0.1rem -0.1rem 0 black,
+                -0.1rem 0.1rem 0 black,
+                 0.1rem 0.1rem 0 black;
+    z-index: -1;
+}
+
+.bellText {
+    position: absolute;
+    top: 65%;
+    left: 8.5%;
+    transform: translate(-50%, -50%);
+    font-size: 6rem;
+}
+
+.turnipText {
+    position: absolute;
+    top: 65%;
+    left: 26.5%;
+    transform: translate(-50%, -50%);
+    font-size: 6rem;
+}
+
+button:focus {
+    outline:0;
+}
+
+/* Media Query For Laptops */
+
+@media screen and (max-width: 1366px) {
+    .logo-font {
+        font-family: 'Cute Font', cursive;
+        font-size: 5rem;
+        text-align: center;
+    }
+    
+    .logo-font-smaller {
+        font-family: 'Cute Font', cursive;
+        font-size: 4rem;
+        text-align: center;
+        margin-top: -7%;
+    }
+    
+    .today {
+        font-family: 'Cute Font', cursive;
+        font-size: 3rem;
+        text-align: center;
+        margin-top: -8%;
+    }
+    .buyTurnips {
+        font-family: 'Cute Font', cursive;
+        position: absolute;
+        top: 15%;
+        left: 2%;
+        font-size: 2rem;
+        height: 25%;
+        width: 23%;
+        padding: 1% 1% 1% 1%;
+        border: 0.1rem solid black;
+    }
+    .sellTurnips {
+        font-family: 'Cute Font', cursive;
+        position: absolute;
+        top: 15%;
+        left: 2%;
+        font-size: 2rem;
+        height: 25%;
+        width: 23%;
+        padding: 1% 1% 1% 1%;
+        border: 0.1rem solid black;
+    }
+    .nextDay {
+        font-family: 'Cute Font', cursive;
+        position: absolute;
+        left: 85%;
+        bottom: 35.5%;
+        font-size: 2rem; 
+        border: 0.1rem solid black;
+    }
+    .container {
+        background-image: url('https://cdna.artstation.com/p/assets/images/images/001/146/574/large/ulrick-wery-tileableset2-wood.jpg?1441028620');
+        display: inline-block;
+        width: 97%;
+        height: 19%;
+        padding-bottom: 5%;
+        position: absolute;
+        font-family: 'Cute Font', cursive;
+        color: #FFE184;
+        border: 1.3rem solid yellow;
+        text-shadow:-0.1rem -0.1rem 0 black,
+                     0.1rem -0.1rem 0 black,
+                    -0.1rem 0.1rem 0 black,
+                     0.1rem 0.1rem 0 black;
+        z-index: -1;
+    }
+    .container img {
+        height: 12rem;
+        width: 12rem;
+    }
+    .bellText {
+        position: absolute;
+        top: 65%;
+        left: 6.5%;
+        transform: translate(-50%, -50%);
+        font-size: 5rem;
+    }
+    
+    .turnipText {
+        position: absolute;
+        top: 65%;
+        left: 23%;
+        transform: translate(-50%, -50%);
+        font-size: 5rem;
+    }
+  }
+
+  /* Media Query for Mobile */
+  @media screen and (max-width: 1366px) {
+
+  }
+
+
+
+
+
