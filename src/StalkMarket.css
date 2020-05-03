@@ -293,8 +293,7 @@ and (orientation : portrait) {
 @media only screen and (min-width: 360px) and (orientation: portrait) {
     .background1 {
         background-image: url('https://wallpaperaccess.com/full/164553.png');
-        padding-bottom: 103%;
-        margin-right: -2%;
+        padding-bottom: 106%;
     }
     .logo-font {
         font-family: 'Cute Font', cursive;
@@ -341,7 +340,7 @@ and (orientation : portrait) {
     .nextDay {
         font-family: 'Cute Font', cursive;
         position: fixed;
-        right: 0;
+        right: 0%;
         left: 78%;
         top: 35%;
         bottom: 41%;
@@ -351,11 +350,11 @@ and (orientation : portrait) {
     .container {
         background-image: url('https://cdna.artstation.com/p/assets/images/images/001/146/574/large/ulrick-wery-tileableset2-wood.jpg?1441028620');
         display: inline-block;
-        width: 89%;
+        width: 88%;
         height: 19%;
-        padding-bottom: 5%;
+        padding-bottom: 0%;
         position: fixed;
-        bottom: 0;
+        bottom: -1%;
         font-family: 'Cute Font', cursive;
         color: #FFE184;
         border: 1.3rem solid yellow;
