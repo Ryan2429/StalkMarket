@@ -193,8 +193,99 @@ button:focus {
   }
 
   /* Media Query for Mobile */
-  @media screen and (max-width: 1366px) {
-
-  }
+  @media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 667px) { 
+    .background1 {
+        background-image: url('https://wallpaperaccess.com/full/164553.png');
+        padding-bottom: 85%;
+        margin-right: -8.7%;
+    }
+    .logo-font {
+        font-family: 'Cute Font', cursive;
+        font-size: 4rem;
+        text-align: center;
+        margin-top: 1rem;
+    }
+    
+    .logo-font-smaller {
+        font-family: 'Cute Font', cursive;
+        font-size: 2.5rem;
+        text-align: center;
+        margin-top: -20%;
+    }
+    
+    .today {
+        font-family: 'Cute Font', cursive;
+        font-size: 2rem;
+        text-align: center;
+        margin-top: -18%;
+    }
+    .buyTurnips {
+        font-family: 'Cute Font', cursive;
+        position: absolute;
+        top: 35%;
+        left: 0%;
+        font-size: 1.2rem;
+        height: 25%;
+        width: 23%;
+        padding: 1% 1% 1% 1%;
+        border: 0.1rem solid black;
+    }
+    .sellTurnips {
+        font-family: 'Cute Font', cursive;
+        position: absolute;
+        top: 35%;
+        left: 0%;
+        font-size: 1.2rem;
+        height: 25%;
+        width: 23%;
+        padding: 1% 1% 1% 1%;
+        border: 0.1rem solid black;
+    }
+    .nextDay {
+        font-family: 'Cute Font', cursive;
+        position: absolute;
+        left: 85%;
+        bottom: 40%;
+        font-size: 2rem; 
+        border: 0.1rem solid black;
+    }
+    .container {
+        background-image: url('https://cdna.artstation.com/p/assets/images/images/001/146/574/large/ulrick-wery-tileableset2-wood.jpg?1441028620');
+        display: inline-block;
+        width: 97.5%;
+        height: 19%;
+        padding-bottom: 5%;
+        position: absolute;
+        font-family: 'Cute Font', cursive;
+        color: #FFE184;
+        border: 1.3rem solid yellow;
+        text-shadow:-0.1rem -0.1rem 0 black,
+                     0.1rem -0.1rem 0 black,
+                    -0.1rem 0.1rem 0 black,
+                     0.1rem 0.1rem 0 black;
+        z-index: -1;
+    }
+    .container img {
+        height: 8.5rem;
+        width: 8.5rem;
+    }
+    .bellText {
+        position: absolute;
+        top: 40%;
+        left: 18%;
+        transform: translate(-50%, -50%);
+        font-size: 3rem;
+    }
+    
+    .turnipText {
+        position: absolute;
+        top: 40%;
+        left: 59%;
+        transform: translate(-50%, -50%);
+        font-size: 3rem;
+    }
+}
 
 
