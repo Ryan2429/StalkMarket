@@ -293,7 +293,7 @@ and (orientation : portrait) {
 @media only screen and (min-width: 360px) and (orientation: portrait) {
     .background1 {
         background-image: url('https://wallpaperaccess.com/full/164553.png');
-        padding-bottom: 90%;
+        padding-bottom: 80%;
     }
     .logo-font {
         font-family: 'Cute Font', cursive;
