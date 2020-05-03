@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a312a4ef27eec521de443abf2df45e31",
+    "revision": "b5fb6a0225766fed331c58496bfb1b33",
     "url": "/stalkmarket/index.html"
   },
   {
-    "revision": "c0b8736f60804c0be232",
-    "url": "/stalkmarket/static/css/main.6e9c32b1.chunk.css"
+    "revision": "290027c6f75c2ba05d12",
+    "url": "/stalkmarket/static/css/main.f773fa5c.chunk.css"
   },
   {
     "revision": "1864e7d4dcdedbb8e28c",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/stalkmarket/static/js/2.577df1db.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "c0b8736f60804c0be232",
+    "revision": "290027c6f75c2ba05d12",
     "url": "/stalkmarket/static/js/main.956ccbe7.chunk.js"
   },
   {
