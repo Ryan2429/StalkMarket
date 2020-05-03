@@ -195,11 +195,11 @@ button:focus {
   /* Media Query for Mobile */
   @media only screen 
 and (min-device-width : 375px) 
-and (max-device-width : 667px) { 
+and (max-device-height : 570px) { 
     .background1 {
         background-image: url('https://wallpaperaccess.com/full/164553.png');
-        padding-bottom: 85%;
-        margin-right: -8.7%;
+        padding-bottom: 61%;
+        margin-right: -2%;
     }
     .logo-font {
         font-family: 'Cute Font', cursive;
@@ -246,15 +246,16 @@ and (max-device-width : 667px) {
     .nextDay {
         font-family: 'Cute Font', cursive;
         position: absolute;
-        left: 85%;
+        left: 78%;
+        top: 35%;
         bottom: 40%;
-        font-size: 2rem; 
+        font-size: 1.5rem; 
         border: 0.1rem solid black;
     }
     .container {
         background-image: url('https://cdna.artstation.com/p/assets/images/images/001/146/574/large/ulrick-wery-tileableset2-wood.jpg?1441028620');
         display: inline-block;
-        width: 97.5%;
+        width: 90%;
         height: 19%;
         padding-bottom: 5%;
         position: absolute;
@@ -282,7 +283,7 @@ and (max-device-width : 667px) {
     .turnipText {
         position: absolute;
         top: 40%;
-        left: 59%;
+        left: 64%;
         transform: translate(-50%, -50%);
         font-size: 3rem;
     }
