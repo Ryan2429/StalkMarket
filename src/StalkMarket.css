@@ -350,7 +350,7 @@ and (orientation : portrait) {
     .container {
         background-image: url('https://cdna.artstation.com/p/assets/images/images/001/146/574/large/ulrick-wery-tileableset2-wood.jpg?1441028620');
         display: inline-block;
-        width: 88%;
+        width: 89%;
         height: 19%;
         padding-bottom: 0%;
         position: fixed;
@@ -365,21 +365,21 @@ and (orientation : portrait) {
         z-index: -1;
     }
     .container img {
-        height: 8.5rem;
-        width: 8.5rem;
+        height: 7rem;
+        width: 7rem;
     }
     .bellText {
         position: absolute;
-        top: 40%;
-        left: 18%;
+        top: 36%;
+        left: 16%;
         transform: translate(-50%, -50%);
         font-size: 3rem;
     }
     
     .turnipText {
         position: absolute;
-        top: 40%;
-        left: 67%;
+        top: 36%;
+        left: 56%;
         transform: translate(-50%, -50%);
         font-size: 3rem;
     }
