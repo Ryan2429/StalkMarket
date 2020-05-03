@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/stalkmarket/static/css/main.5f9ca27d.chunk.css",
+    "main.css": "/stalkmarket/static/css/main.3be5b5b7.chunk.css",
     "main.js": "/stalkmarket/static/js/main.956ccbe7.chunk.js",
     "main.js.map": "/stalkmarket/static/js/main.956ccbe7.chunk.js.map",
     "runtime-main.js": "/stalkmarket/static/js/runtime-main.b013e866.js",
@@ -8,15 +8,15 @@
     "static/js/2.577df1db.chunk.js": "/stalkmarket/static/js/2.577df1db.chunk.js",
     "static/js/2.577df1db.chunk.js.map": "/stalkmarket/static/js/2.577df1db.chunk.js.map",
     "index.html": "/stalkmarket/index.html",
-    "precache-manifest.2876d900b2bba7107ed70bbb7968431c.js": "/stalkmarket/precache-manifest.2876d900b2bba7107ed70bbb7968431c.js",
+    "precache-manifest.9b94d66358f273c6bb870f1d3d78f4b8.js": "/stalkmarket/precache-manifest.9b94d66358f273c6bb870f1d3d78f4b8.js",
     "service-worker.js": "/stalkmarket/service-worker.js",
-    "static/css/main.5f9ca27d.chunk.css.map": "/stalkmarket/static/css/main.5f9ca27d.chunk.css.map",
+    "static/css/main.3be5b5b7.chunk.css.map": "/stalkmarket/static/css/main.3be5b5b7.chunk.css.map",
     "static/js/2.577df1db.chunk.js.LICENSE.txt": "/stalkmarket/static/js/2.577df1db.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.b013e866.js",
     "static/js/2.577df1db.chunk.js",
-    "static/css/main.5f9ca27d.chunk.css",
+    "static/css/main.3be5b5b7.chunk.css",
     "static/js/main.956ccbe7.chunk.js"
   ]
 }
