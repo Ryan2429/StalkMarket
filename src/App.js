@@ -50,7 +50,6 @@ class App extends React.Component {
     }
 
     sellTurnips = () => {
-        let randomPrice = Math.floor(Math.random() * (110 - 50) + 50);
         let turnips = this.state.turnips;
         let bells = this.state.bells;
         let turnipPrice = this.state.turnipPrice;
