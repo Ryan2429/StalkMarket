@@ -68,7 +68,7 @@ body {
     font-family: 'Cute Font', cursive;
     position: absolute;
     left: 85%;
-    bottom: 37.5%;
+    bottom: 38%;
     font-size: 3rem; 
     border: 0.1rem solid black;
     background-color: white;
@@ -163,7 +163,7 @@ button:focus {
         font-family: 'Cute Font', cursive;
         position: absolute;
         left: 85%;
-        bottom: 35.8%;
+        bottom: 37%;
         font-size: 2rem; 
         border: 0.1rem solid black;
         background-color: white;
