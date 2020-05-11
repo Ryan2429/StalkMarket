@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b7100417fef8b1cc6679ecd0c863975e",
+    "revision": "9692d4dc61b8e7aa0d6e4d56e2f0ade8",
     "url": "/stalkmarket/index.html"
   },
   {
