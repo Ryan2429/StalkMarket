@@ -123,9 +123,10 @@ class App extends React.Component {
         return (
             <div>
                 <div>
-                <audio src={Music} loop autoPlay='true' />
+                
                     {( this.state.gameStarted === false ? <Rules removeRules={this.removeRules}/> : 
                         <div className='background1'>
+                        <audio src={Music} loop autoPlay='true' />
                         <Logo day={this.state.day} />
                         <div>
                         <GenerateTurnips
