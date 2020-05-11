@@ -23,6 +23,15 @@ class App extends React.Component {
 
     }
 
+    newGame = () => {
+        let randomPrice = Math.floor(Math.random() * (110 - 50) + 50);
+        this.setState({
+            bells: 1000,
+            turnips: 0,
+            day: 'Sunday',
+            turnipPrice: randomPrice
+        })
+    }
 
     buyTurnips = () => {
         let turnips = this.state.turnips;
@@ -32,14 +41,16 @@ class App extends React.Component {
             this.setState({
                 bells: bells - turnipPrice,
                 turnips: turnips + 1
-            });
-            console.log(turnipPrice);
-        } else {
-            console.log('not working');
+            })
+        }
+        if (turnips === 0 && turnipPrice > bells) {
+            alert('Game Over! You ran out of bells! Sorry, press OK to start a New Game!')
+            this.newGame();
         }
     }
 
     sellTurnips = () => {
+        let randomPrice = Math.floor(Math.random() * (110 - 50) + 50);
         let turnips = this.state.turnips;
         let bells = this.state.bells;
         let turnipPrice = this.state.turnipPrice;
@@ -49,7 +60,10 @@ class App extends React.Component {
                 bells: bells + turnipPrice
             })
         }
-
+        if (bells > 3000) {
+            alert('You won! Click OK to start a New Game!');
+            this.newGame();
+        }
     }
 
     toNextDay = () => {
@@ -91,7 +105,6 @@ class App extends React.Component {
                 turnips: 0
             })
         }
-        console.log(this.state.day);
     }
 
     render() {
