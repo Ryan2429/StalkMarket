@@ -290,10 +290,18 @@ and (orientation : portrait) {
     }
 }
 /* Media Query for Galaxy S9 */
-@media only screen and (min-width: 360px) and (orientation: portrait) {
+@media only screen and (max-width: 415px) and (orientation: portrait) {
     .background1 {
-        background-image: url('https://wallpaperaccess.com/full/164553.png');
-        padding-bottom: 80%;
+        background-image: url('https://wallpaperaccess.com/full/164553.png') no-repeat center center fixed;
+        -webkit-background-size: cover;
+         -moz-background-size: cover;
+        -o-background-size: cover;
+         background-size: cover;
+         position: fixed;
+         bottom: 0;
+         top: 0;
+         left: 0;
+         right: 0;
     }
     .logo-font {
         font-family: 'Cute Font', cursive;
@@ -318,22 +326,22 @@ and (orientation : portrait) {
     .buyTurnips {
         font-family: 'Cute Font', cursive;
         position: absolute;
-        top: 35%;
+        top: 38%;
         left: 0%;
         font-size: 1.2rem;
         height: 25%;
-        width: 23%;
+        width: 27%;
         padding: 1% 1% 1% 1%;
         border: 0.1rem solid black;
     }
     .sellTurnips {
         font-family: 'Cute Font', cursive;
         position: absolute;
-        top: 35%;
+        top: 38%;
         left: 0%;
         font-size: 1.2rem;
         height: 25%;
-        width: 23%;
+        width: 27%;
         padding: 1% 1% 1% 1%;
         border: 0.1rem solid black;
     }
@@ -342,8 +350,8 @@ and (orientation : portrait) {
         position: fixed;
         right: 0%;
         left: 78%;
-        top: 35%;
-        bottom: 41%;
+        top: 38%;
+        bottom: 37%;
         font-size: 1.5rem; 
         border: 0.1rem solid black;
     }
@@ -362,7 +370,7 @@ and (orientation : portrait) {
                      0.1rem -0.1rem 0 black,
                     -0.1rem 0.1rem 0 black,
                      0.1rem 0.1rem 0 black;
-        z-index: -1;
+        z-index: 1;
     }
     .container img {
         height: 7rem;
