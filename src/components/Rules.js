@@ -26,6 +26,7 @@ const Rules = ( { removeRules } ) => {
                 <ul>* If you don't have enough bells to buy turnips, you lose!</ul>
             </h2>
             <button className='startGame' onClick={removeRules}>Press Here To Start!</button>
+            <h2 style={{marginTop: '.1%'}}>Music: Bensound.com</h2>
         </div>
     )
 }
