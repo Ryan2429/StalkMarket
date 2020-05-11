@@ -5,6 +5,7 @@ import GenerateTurnips from './components/GenerateTurnips'
 import SellTurnips from './components/SellTurnips'
 import Inventory from './components/Inventory'
 import NextDay from './components/NextDay'
+import Rules from './components/Rules';
 
 
 class App extends React.Component {
@@ -17,10 +18,15 @@ class App extends React.Component {
             turnipPrice: randomPrice,
             bells: 1000,
             day: 'Sunday',
-            turnips: 0
+            turnips: 0,
+            gameStarted: false
         };
 
 
+    }
+
+    removeRules = () => {
+        this.setState({ gameStarted: true })
     }
 
     newGame = () => {
@@ -29,7 +35,8 @@ class App extends React.Component {
             bells: 1000,
             turnips: 0,
             day: 'Sunday',
-            turnipPrice: randomPrice
+            turnipPrice: randomPrice,
+            gameStarted: false
         })
     }
 
@@ -110,27 +117,28 @@ class App extends React.Component {
 
         return (
             <div>
-                    <div>
+                <div>
+                    {( this.state.gameStarted === false ? <Rules removeRules={this.removeRules}/> : <div className='background1'>
+                        <Logo day={this.state.day} />
                         <div>
-                            <div className='background1'>
-                                <Logo day={this.state.day} />
-                                <GenerateTurnips
-                                    day={this.state.day}
-                                    turnipPrice={this.state.turnipPrice}
-                                    buyTurnips={this.buyTurnips}
-                                />
-                                <SellTurnips
-                                    day={this.state.day}
-                                    turnipPrice={this.state.turnipPrice}
-                                    sellTurnips={this.sellTurnips}
-                                />
-                            </div>
-                            <NextDay toNextDay={this.toNextDay} day={this.state.day} />
-                        </div>
-                        <div className='background2'>
-                            <Inventory bells={this.state.bells} turnips={this.state.turnips} />
-                        </div>
+                        <GenerateTurnips
+                            day={this.state.day}
+                            turnipPrice={this.state.turnipPrice}
+                            buyTurnips={this.buyTurnips}
+                        />
+                        <SellTurnips
+                            day={this.state.day}
+                            turnipPrice={this.state.turnipPrice}
+                            sellTurnips={this.sellTurnips}
+                        />
                     </div>
+                    <NextDay toNextDay={this.toNextDay} day={this.state.day} />
+                </div>)} 
+                    
+                </div>
+                <div className='background2'>
+                    <Inventory bells={this.state.bells} turnips={this.state.turnips} />
+                </div>
             </div>
         )
     }
