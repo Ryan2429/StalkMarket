@@ -10,7 +10,7 @@ const Rules = ( { removeRules } ) => {
                 position: 'fixed',
                 color: 'black',
                 fontFamily: 'Cute Font',
-                fontSize: '1rem',
+                fontSize: '.9rem',
                 textAlign: 'left',
                 paddingRight: '5%',
                 paddingLeft: '5%',
@@ -20,7 +20,7 @@ const Rules = ( { removeRules } ) => {
                 right: 0
             }}
         >
-            <h2>Welcome to<span style={{ fontSize: '1.8rem' }}> <u>Stalk Market!</u></span> The following are the rules:</h2>
+            <h2>Welcome to<span style={{ fontSize: '1.8rem' }}><u> Stalk Market!</u></span> The following are the rules:</h2>
             <h2><ul>* Earn 3000 bells to win!</ul>
                 <ul>* Turnips can be bought but not sold on Sunday. If it is Sunday and you still have turnips they will <i><u>ROT AWAY!</u></i></ul>
                 <ul>* If you don't have enough bells to buy turnips, you lose!</ul>

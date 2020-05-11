@@ -123,7 +123,9 @@ class App extends React.Component {
         return (
             <div>
                 <div>
-                    {( this.state.gameStarted === false ? <Rules removeRules={this.removeRules}/> : <div className='background1'>
+                    <audio src={Music} loop autoPlay='true' />
+                    {( this.state.gameStarted === false ? <Rules removeRules={this.removeRules}/> : 
+                        <div className='background1'>
                         <Logo day={this.state.day} />
                         <div>
                         <GenerateTurnips
@@ -144,7 +146,7 @@ class App extends React.Component {
                 <div className='background2'>
                     <Inventory bells={this.state.bells} turnips={this.state.turnips} />
                 </div>
-                <audio src={Music} loop autoPlay />
+                
             </div>
         )
     }
