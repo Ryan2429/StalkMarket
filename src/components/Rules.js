@@ -14,7 +14,6 @@ const Rules = ( { removeRules } ) => {
                 textAlign: 'left',
                 paddingRight: '5%',
                 paddingLeft: '5%',
-                position: 'fixed',
                 bottom: 0,
                 top: 0,
                 left: 0,

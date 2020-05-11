@@ -11,6 +11,13 @@ body {
     overflow: hidden; 
 }
 
+.startGame {
+    font-family: 'Cute Font';
+    font-size: 2rem;
+    border: .1rem solid black;
+    background-color: white;
+}
+
 .logo-font {
     font-family: 'Cute Font', cursive;
     font-size: 8rem;
@@ -41,6 +48,7 @@ body {
     width: 30%;
     padding: 2% 2% 2% 2%;
     border: 0.1rem solid black;
+    background-color: white;
 }
 
 .sellTurnips {
@@ -53,6 +61,7 @@ body {
     width: 30%;
     padding: 2% 2% 2% 2%;
     border: 0.1rem solid black;
+    background-color: white;
 }
 
 .nextDay {
@@ -62,6 +71,7 @@ body {
     bottom: 37.5%;
     font-size: 3rem; 
     border: 0.1rem solid black;
+    background-color: white;
 }
 
 
@@ -135,6 +145,7 @@ button:focus {
         width: 23%;
         padding: 1% 1% 1% 1%;
         border: 0.1rem solid black;
+        background-color: white;
     }
     .sellTurnips {
         font-family: 'Cute Font', cursive;
@@ -146,6 +157,7 @@ button:focus {
         width: 23%;
         padding: 1% 1% 1% 1%;
         border: 0.1rem solid black;
+        background-color: white;
     }
     .nextDay {
         font-family: 'Cute Font', cursive;
@@ -154,6 +166,7 @@ button:focus {
         bottom: 35.8%;
         font-size: 2rem; 
         border: 0.1rem solid black;
+        background-color: white;
     }
     .container {
         background-image: url('https://cdna.artstation.com/p/assets/images/images/001/146/574/large/ulrick-wery-tileableset2-wood.jpg?1441028620');
@@ -232,6 +245,7 @@ and (orientation : portrait) {
         width: 23%;
         padding: 1% 1% 1% 1%;
         border: 0.1rem solid black;
+        background-color: white;
     }
     .sellTurnips {
         font-family: 'Cute Font', cursive;
@@ -243,6 +257,7 @@ and (orientation : portrait) {
         width: 23%;
         padding: 1% 1% 1% 1%;
         border: 0.1rem solid black;
+        background-color: white;
     }
     .nextDay {
         font-family: 'Cute Font', cursive;
@@ -252,6 +267,7 @@ and (orientation : portrait) {
         bottom: 40%;
         font-size: 1.5rem; 
         border: 0.1rem solid black;
+        background-color: white;
     }
     .container {
         background-image: url('https://cdna.artstation.com/p/assets/images/images/001/146/574/large/ulrick-wery-tileableset2-wood.jpg?1441028620');
@@ -334,6 +350,7 @@ and (orientation : portrait) {
         width: 27%;
         padding: 1% 1% 1% 1%;
         border: 0.1rem solid black;
+        background-color: white;
     }
     .sellTurnips {
         font-family: 'Cute Font', cursive;
@@ -345,6 +362,7 @@ and (orientation : portrait) {
         width: 27%;
         padding: 1% 1% 1% 1%;
         border: 0.1rem solid black;
+        background-color: white;
     }
     .nextDay {
         font-family: 'Cute Font', cursive;
@@ -355,6 +373,7 @@ and (orientation : portrait) {
         bottom: 37%;
         font-size: 1.5rem; 
         border: 0.1rem solid black;
+        background-color: white;
     }
     .container {
         background-image: url('https://cdna.artstation.com/p/assets/images/images/001/146/574/large/ulrick-wery-tileableset2-wood.jpg?1441028620');
@@ -394,11 +413,12 @@ and (orientation : portrait) {
     }
 
     .startGame {
-        font-Family: 'Cute Font';
-                font-Size: 2rem;
+        font-family: 'Cute Font';
+                font-size: 2rem;
                 position: absolute;
                 top: 65%;
                 border: 0.1rem solid black;
+                background-color: white;
     }
 }
 
