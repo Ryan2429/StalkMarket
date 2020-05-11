@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/stalkmarket/static/css/main.a82e7cc5.chunk.css",
+    "main.css": "/stalkmarket/static/css/main.ab4d300d.chunk.css",
     "main.js": "/stalkmarket/static/js/main.c80f74b2.chunk.js",
     "main.js.map": "/stalkmarket/static/js/main.c80f74b2.chunk.js.map",
     "runtime-main.js": "/stalkmarket/static/js/runtime-main.b013e866.js",
@@ -8,16 +8,16 @@
     "static/js/2.36459c6f.chunk.js": "/stalkmarket/static/js/2.36459c6f.chunk.js",
     "static/js/2.36459c6f.chunk.js.map": "/stalkmarket/static/js/2.36459c6f.chunk.js.map",
     "index.html": "/stalkmarket/index.html",
-    "precache-manifest.0ccc2bf86b6ee050cb63174937a1e538.js": "/stalkmarket/precache-manifest.0ccc2bf86b6ee050cb63174937a1e538.js",
+    "precache-manifest.af5d5e172d4d6b519b8b098e5d8747d5.js": "/stalkmarket/precache-manifest.af5d5e172d4d6b519b8b098e5d8747d5.js",
     "service-worker.js": "/stalkmarket/service-worker.js",
-    "static/css/main.a82e7cc5.chunk.css.map": "/stalkmarket/static/css/main.a82e7cc5.chunk.css.map",
+    "static/css/main.ab4d300d.chunk.css.map": "/stalkmarket/static/css/main.ab4d300d.chunk.css.map",
     "static/js/2.36459c6f.chunk.js.LICENSE.txt": "/stalkmarket/static/js/2.36459c6f.chunk.js.LICENSE.txt",
     "static/media/bensound-littleidea.mp3": "/stalkmarket/static/media/bensound-littleidea.bf0df2e2.mp3"
   },
   "entrypoints": [
     "static/js/runtime-main.b013e866.js",
     "static/js/2.36459c6f.chunk.js",
-    "static/css/main.a82e7cc5.chunk.css",
+    "static/css/main.ab4d300d.chunk.css",
     "static/js/main.c80f74b2.chunk.js"
   ]
 }
