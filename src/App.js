@@ -1,4 +1,5 @@
 import './StalkMarket.css'
+import Music from './bensound-littleidea.mp3'
 import React from 'react'
 import Logo from './components/Logo'
 import GenerateTurnips from './components/GenerateTurnips'
@@ -24,6 +25,8 @@ class App extends React.Component {
 
 
     }
+
+    
 
     removeRules = () => {
         this.setState({ gameStarted: true })
@@ -113,6 +116,8 @@ class App extends React.Component {
         }
     }
 
+    
+
     render() {
 
         return (
@@ -139,6 +144,7 @@ class App extends React.Component {
                 <div className='background2'>
                     <Inventory bells={this.state.bells} turnips={this.state.turnips} />
                 </div>
+                <audio src={Music} loop autoPlay />
             </div>
         )
     }
